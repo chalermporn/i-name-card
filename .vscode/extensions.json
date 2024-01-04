@@ -4,6 +4,22 @@
     "Vue.vscode-typescript-vue-plugin",
     "ms-playwright.playwright",
     "dbaeumer.vscode-eslint",
-    "richie5um2.vscode-sort-json"
+    "richie5um2.vscode-sort-json",
+    "usernamehw.errorlens",
+    "mhutchie.git-graph",
+    "donjayamanne.githistory",
+    "editorconfig.editorconfig",
+    "eamodio.gitlens",
+    "antfu.goto-alias",
+    "heybourn.headwind",
+    "xabikos.javascriptsnippets",
+    "pkief.material-icon-theme",
+    "sdras.night-owl",
+    "christian-kohler.path-intellisense",
+    "bradlc.vscode-tailwindcss",
+    "xiguaxigua.vue-style-beautify",
+    "dzhavat.bracket-pair-toggler",
+    "antfu.iconify",
+    "esbenp.prettier-vscode"
   ]
 }
