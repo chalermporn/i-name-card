@@ -4,12 +4,12 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "dev": "bunx --bun vite",
+    "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:e2e": "playwright test",
-    "build-only": "bunx --bun vite build",
+    "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
