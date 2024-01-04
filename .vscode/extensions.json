@@ -3,6 +3,7 @@
     "Vue.volar",
     "Vue.vscode-typescript-vue-plugin",
     "ms-playwright.playwright",
-    "dbaeumer.vscode-eslint"
+    "dbaeumer.vscode-eslint",
+    "richie5um2.vscode-sort-json"
   ]
 }
