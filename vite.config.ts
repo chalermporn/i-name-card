@@ -5,6 +5,10 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vue3-app-starter/',
+  build: {
+    outDir: 'docs',
+  },
   plugins: [
     vue(),
   ],
