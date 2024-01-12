@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/vue3-app-starter/',
+  base: '/i-name-card/',
   build: {
     outDir: 'docs',
   },
