@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as o,a as s}from"./index-2h5nuNkW.js";const c={},n={class:"about"},a=s("h1",{class:"text-3xl font-bold text-red-400 underline"}," admin ",-1),_=[a];function r(d,i){return t(),o("div",n,_)}const f=e(c,[["render",r]]);export{f as default};
