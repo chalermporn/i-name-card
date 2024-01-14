@@ -5,11 +5,14 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "dev:bun": "bunx --bun vite",
     "build": "run-p type-check \"build-only {@}\" --",
+    "build:bun": "run-p type-check \"build-only:bun {@}\" --",
     "preview": "vite preview",
     "test:unit": "vitest",
     "test:e2e": "playwright test",
     "build-only": "vite build",
+    "build-only:bun": "bunx --bun vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint \"./**/*.{vue,ts,json,config.js}\" --fix"
   },

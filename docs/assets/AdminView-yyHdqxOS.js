@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as t,a as c}from"./index-5EyL-en2.js";const o={},n={class:"about"},a=c("h1",{class:"text-3xl font-bold text-red-400 underline"}," admin ",-1),r=[a];function i(_,d){return s(),t("div",n,[...r])}const f=e(o,[["render",i],["__file","/Users/bird/DEMO/VUE/i-name-card/src/views/AdminView.vue"]]);export{f as default};

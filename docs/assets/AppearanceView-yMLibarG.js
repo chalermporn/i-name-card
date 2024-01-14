@@ -1,0 +1,1 @@
+import{_ as e,o as s,c,a as t}from"./index-5EyL-en2.js";const a={},o={class:"about"},r=t("h1",{class:"text-3xl font-bold text-red-400 underline"}," Appearance ",-1),n=[r];function _(i,d){return s(),c("div",o,[...n])}const p=e(a,[["render",_],["__file","/Users/bird/DEMO/VUE/i-name-card/src/views/AppearanceView.vue"]]);export{p as default};
