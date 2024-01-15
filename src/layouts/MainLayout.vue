@@ -82,7 +82,7 @@ onUnmounted(() => {
                 </div>
               </TransitionChild>
               <!-- Sidebar component, swap this element with another sidebar if you like -->
-              <div class="flex flex-col px-6 pb-4 overflow-y-auto bg-indigo-600 grow gap-y-5">
+              <div class="flex flex-col px-6 pb-4 overflow-y-auto bg-primary-400 grow gap-y-5">
                 <div class="flex items-center h-16 shrink-0">
                   <img class="w-auto h-8" src="https://tailwindui.com/img/logos/mark.svg?color=white" alt="Your Company">
                 </div>
@@ -91,7 +91,7 @@ onUnmounted(() => {
                     <li>
                       <ul role="list" class="-mx-2 space-y-1">
                         <li v-for="item in navigation" :key="item.name">
-                          <RouterLink :to="item.href" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-indigo-700">
+                          <RouterLink :to="item.href" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-primary-700">
                             <component :is="item.icon" class="w-6 h-6 shrink-0" aria-hidden="true" />
                             {{ item.name }}
                           </RouterLink>
@@ -104,7 +104,7 @@ onUnmounted(() => {
                       </div>
                       <ul role="list" class="mt-2 -mx-2 space-y-1">
                         <li v-for="team in teams" :key="team.name">
-                          <a :href="team.href" class="flex p-2 text-sm font-semibold leading-6 rounded-md group gap-x-3" :class="[team.current ? 'bg-indigo-700 text-white' : 'text-indigo-200 hover:text-white hover:bg-indigo-700']">
+                          <a :href="team.href" class="flex p-2 text-sm font-semibold leading-6 rounded-md group gap-x-3" :class="[team.current ? 'bg-primary-700 text-white' : 'text-indigo-200 hover:text-white hover:bg-primary-700']">
                             <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border border-indigo-400 bg-indigo-500 text-[0.625rem] font-medium text-white">{{ team.initial }}</span>
                             <span class="truncate">{{ team.name }}</span>
                           </a>
@@ -112,7 +112,7 @@ onUnmounted(() => {
                       </ul>
                     </li>
                     <li class="mt-auto">
-                      <RouterLink to="setting" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-indigo-700">
+                      <RouterLink to="setting" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-primary-700">
                         <Cog6ToothIcon class="w-6 h-6 text-indigo-200 shrink-0 group-hover:text-white" aria-hidden="true" />
                         Settings
                       </RouterLink>
@@ -129,7 +129,7 @@ onUnmounted(() => {
     <!-- Static sidebar for desktop -->
     <div class="hidden lg:fixed lg:inset-y-0 lg:z-50 lg:flex lg:w-72 lg:flex-col">
       <!-- Sidebar component, swap this element with another sidebar if you like -->
-      <div class="flex flex-col px-6 pb-4 overflow-y-auto bg-indigo-600 grow gap-y-5">
+      <div class="flex flex-col px-6 pb-4 overflow-y-auto bg-primary-400 grow gap-y-5">
         <div class="flex items-center h-16 shrink-0">
           <img class="w-auto h-8" src="https://tailwindui.com/img/logos/mark.svg?color=white" alt="Your Company">
         </div>
@@ -138,7 +138,7 @@ onUnmounted(() => {
             <li>
               <ul role="list" class="-mx-2 space-y-1">
                 <li v-for="item in navigation" :key="item.name">
-                  <RouterLink :to="item.href" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-indigo-700">
+                  <RouterLink :to="item.href" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-primary-700">
                     <component :is="item.icon" class="w-6 h-6 shrink-0" aria-hidden="true" />
                     {{ item.name }}
                   </RouterLink>
@@ -151,7 +151,7 @@ onUnmounted(() => {
               </div>
               <ul role="list" class="mt-2 -mx-2 space-y-1">
                 <li v-for="team in teams" :key="team.name">
-                  <a :href="team.href" class="flex p-2 text-sm font-semibold leading-6 rounded-md group gap-x-3" :class="[team.current ? 'bg-indigo-700 text-white' : 'text-indigo-200 hover:text-white hover:bg-indigo-700']">
+                  <a :href="team.href" class="flex p-2 text-sm font-semibold leading-6 rounded-md group gap-x-3" :class="[team.current ? 'bg-primary-700 text-white' : 'text-indigo-200 hover:text-white hover:bg-primary-700']">
                     <span class="flex h-6 w-6 shrink-0 items-center justify-center rounded-lg border border-indigo-400 bg-indigo-500 text-[0.625rem] font-medium text-white">{{ team.initial }}</span>
                     <span class="truncate">{{ team.name }}</span>
                   </a>
@@ -159,7 +159,7 @@ onUnmounted(() => {
               </ul>
             </li>
             <li class="mt-auto">
-              <RouterLink to="setting" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-indigo-700">
+              <RouterLink to="setting" class="flex p-2 text-sm font-semibold leading-6 text-indigo-200 rounded-md group gap-x-3 hover:text-white hover:bg-primary-700">
                 <Cog6ToothIcon class="w-6 h-6 text-indigo-200 shrink-0 group-hover:text-white" aria-hidden="true" />
                 Settings
               </RouterLink>
@@ -224,7 +224,7 @@ onUnmounted(() => {
       </main>
     </div>
     <div v-if="positionScroll > 100" class="fixed z-10 mx-2 my-8 mb-[80px] cursor-pointer right-3 bottom-2">
-      <button class="md:whitespace-nowrap inline-flex gap-2  rounded flex-row-reverse py-1 px-2 text-sm !p-[6px] border  border-indigo-700 bg-indigo-700 text-white  hover:shadow-lg items-center justify-center m-2 " @click="scrollToTop()">
+      <button class="md:whitespace-nowrap inline-flex gap-2  rounded flex-row-reverse py-1 px-2 text-sm !p-[6px] border  border-indigo-700 bg-primary-700 text-white  hover:shadow-lg items-center justify-center m-2 " @click="scrollToTop()">
         <svg
           xmlns="http://www.w3.org/2000/svg" width="11" height="6" viewBox="0 0 11 6"
           class="stroke-[none] flex-row-reverse fill-current h-5 w-5"
